@@ -1,4 +1,12 @@
 
+// Check Username, passsword in post(login) request
+// If exists, create new JWT
+// Send JWT to front-end
+
+// Setup authentication so only  the request with JWT can access  the dashboard
+
+
+
 const login = async (req, res) => {
     res.send('Fake Login/Register Signup Route')
 }
